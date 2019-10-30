@@ -1,0 +1,36 @@
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+import routes from './routes'
+import Cabecalho from '../components/Cabecalho'
+import Filtro from '../components/Filtro'
+import Carrossel from '../components/Carrossel'
+import Card from '../components/Card'
+import Rodape from '../components/Rodape'
+
+Vue.use(VueRouter)
+Vue.component('cabecalho', Cabecalho)
+Vue.component('filtro', Filtro)
+Vue.component('carrossel', Carrossel)
+Vue.component('card', Card)
+Vue.component('rodape', Rodape)
+
+/*
+ * If not building with SSR mode, you can
+ * directly export the Router instantiation
+ */
+
+export default function (/* { store, ssrContext } */) {
+  const Router = new VueRouter({
+    scrollBehavior: () => ({ x: 0, y: 0 }),
+    routes,
+
+    // Leave these as is and change from quasar.conf.js instead!
+    // quasar.conf.js -> build -> vueRouterMode
+    // quasar.conf.js -> build -> publicPath
+    mode: process.env.VUE_ROUTER_MODE,
+    base: process.env.VUE_ROUTER_BASE
+  })
+
+  return Router
+}
