@@ -2,9 +2,7 @@
 <q-layout view="lHr Lpr lfr">
     <filtro></filtro>
     <carrossel></carrossel>
-    <q-page-container>
-        <card></card>
-    </q-page-container>
+    <card></card>
   </q-layout>
 </template>
 

@@ -10,11 +10,10 @@
         <q-btn dense flat round icon="menu" @click="right = !right" />
       </q-toolbar>
       <q-tabs align="left">
-        <q-route-tab to="/page1" label="Início" />
-        <q-route-tab to="/page2" label="Serviços" />
-        <q-route-tab to="/page3" label="Anuncie" />
-        <q-route-tab to="/page3" label="Área Vip" />
-        <q-route-tab to="/page3" label="Fale Conosco" />
+        <q-route-tab to="/" label="Início" />
+        <q-route-tab to="/anuncie" label="Anuncie" />
+        <q-route-tab to="/area-vip" label="Área Vip" />
+        <q-route-tab to="/fale-conosco" label="Fale Conosco" />
       </q-tabs>
     </q-header>
 </template>

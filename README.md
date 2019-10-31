@@ -1,6 +1,6 @@
 # Monamour App (monamour)
 
-Projeto criado para divulgação de acompanhantes no Brasil
+Projeto criado para divulgação de serviços no Brasil
 
 ## Install the dependencies
 ```bash

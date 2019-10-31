@@ -1,25 +1,44 @@
 <template>
-  <div class="q-pa-md">
-    <q-btn-group spread>
-      <q-btn rounded color="primary" label="One" />
-      <q-btn rounded color="primary" label="Two" />
-      <q-btn-dropdown auto-close rounded color="primary" label="Three" split>
-        <!-- dropdown content goes here -->
-        <q-list padding style="width: 250px">
-          <q-item clickable>
-            <q-item-section avatar>
-              <q-avatar icon="folder" color="purple" text-color="white" />
-            </q-item-section>
-            <q-item-section>
-              <q-item-label>Photos</q-item-label>
-              <q-item-label caption>February 22, 2016</q-item-label>
-            </q-item-section>
-            <q-item-section side>
-              <q-icon name="info" color="amber" />
-            </q-item-section>
-          </q-item>
-        </q-list>
-      </q-btn-dropdown>
-    </q-btn-group>
+  <div class="q-pa-md q-gutter-sm">
+    <q-banner rounded class="bg-purple-3 text-white">
+
+      <div class="q-gutter-sm">
+        <q-select
+          filled
+          v-model="model"
+          :options="options"
+          label="Estado"
+          emit-value
+          map-options
+        />
+        <q-icon  class="text-purple" name="img:https://cdn.icon-icons.com/icons2/54/PNG/256/seek_search_find_10833.png" style="font-size: 4.4em;" />
+        <q-radio keep-color v-model="color" val="orange" label="Opção 1" color="orange" />
+        <q-radio keep-color v-model="color" val="red" label="Opção 2" color="red" />
+        <q-radio keep-color v-model="color" val="teal" label="Opção 3" color="teal" />
+      </div>
+    </q-banner>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'Filtro',
+
+  data () {
+    return {
+      color: 'orange',
+      model: 'SP',
+      options: [
+        {
+          label: 'São Paulo',
+          value: 'SP'
+        },
+        {
+          label: 'Rio de Janeiro',
+          value: 'RJ'
+        }
+      ]
+    }
+  }
+}
+</script>
