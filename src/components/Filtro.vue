@@ -11,10 +11,10 @@
           emit-value
           map-options
         />
-        <q-icon  class="text-purple" name="img:https://cdn.icon-icons.com/icons2/54/PNG/256/seek_search_find_10833.png" style="font-size: 4.4em;" />
         <q-radio keep-color v-model="color" val="orange" label="Opção 1" color="orange" />
         <q-radio keep-color v-model="color" val="red" label="Opção 2" color="red" />
         <q-radio keep-color v-model="color" val="teal" label="Opção 3" color="teal" />
+        <q-icon align="center" name="img:https://cdn.icon-icons.com/icons2/54/PNG/256/seek_search_find_10833.png" style="font-size: 4.4em;" />
       </div>
     </q-banner>
   </div>

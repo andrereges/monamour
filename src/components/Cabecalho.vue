@@ -7,14 +7,15 @@
           </q-avatar>
           Monamour
         </q-toolbar-title>
-        <q-btn dense flat round icon="menu" @click="right = !right" />
+        <q-btn dense flat round icon="menu" @click="showMenu = !showMenu" />
       </q-toolbar>
-      <q-tabs align="left">
+      <q-tabs align="center">
         <q-route-tab to="/" label="Início" />
         <q-route-tab to="/anuncie" label="Anuncie" />
         <q-route-tab to="/area-vip" label="Área Vip" />
         <q-route-tab to="/fale-conosco" label="Fale Conosco" />
       </q-tabs>
+      <menu></menu>
     </q-header>
 </template>
 
@@ -24,7 +25,7 @@ export default {
 
   data () {
     return {
-      right: false
+      showMenu: false
     }
   }
 }

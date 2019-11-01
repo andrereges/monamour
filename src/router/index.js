@@ -5,15 +5,23 @@ import routes from './routes'
 import Cabecalho from '../components/Cabecalho'
 import Filtro from '../components/Filtro'
 import Carrossel from '../components/Carrossel'
+import Dialog from '../components/Dialog'
+import Thumbnails from '../components/Thumbnails'
+import VideoSlide from '../components/VideoSlide'
 import Card from '../components/Card'
 import Rodape from '../components/Rodape'
+import Menu from '../components/Menu'
 
 Vue.use(VueRouter)
 Vue.component('cabecalho', Cabecalho)
 Vue.component('filtro', Filtro)
 Vue.component('carrossel', Carrossel)
+Vue.component('dialog', Dialog)
+Vue.component('thumbnails', Thumbnails)
+Vue.component('video-slide', VideoSlide)
 Vue.component('card', Card)
 Vue.component('rodape', Rodape)
+Vue.component('menu', Menu)
 
 /*
  * If not building with SSR mode, you can

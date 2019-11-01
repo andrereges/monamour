@@ -2,7 +2,9 @@
 <q-layout view="lHr Lpr lfr">
     <filtro></filtro>
     <carrossel></carrossel>
+    <q-separator color="orange" inset />
     <card></card>
+    <dialog></dialog>
   </q-layout>
 </template>
 
