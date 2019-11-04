@@ -8,7 +8,7 @@ import Carrossel from '../components/Carrossel'
 import Dialog from '../components/Dialog'
 import Thumbnails from '../components/Thumbnails'
 import VideoSlide from '../components/VideoSlide'
-import Card from '../components/Card'
+import Imagem from '../components/Imagem'
 import Rodape from '../components/Rodape'
 import Menu from '../components/Menu'
 
@@ -19,7 +19,7 @@ Vue.component('carrossel', Carrossel)
 Vue.component('dialog', Dialog)
 Vue.component('thumbnails', Thumbnails)
 Vue.component('video-slide', VideoSlide)
-Vue.component('card', Card)
+Vue.component('imagem', Imagem)
 Vue.component('rodape', Rodape)
 Vue.component('menu', Menu)
 

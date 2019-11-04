@@ -3,7 +3,7 @@
     <filtro></filtro>
     <carrossel></carrossel>
     <q-separator color="orange" inset />
-    <card></card>
+    <imagem></imagem>
     <dialog></dialog>
   </q-layout>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="q-pa-md" align="right">
         <q-btn color="purple" label="Configurações da Conta">
-        <q-menu v-model="showMenu">
+        <q-menu :showMenu="showMenu">
             <div class="row no-wrap q-pa-md">
             <div class="column">
                 <div class="text-h6 q-mb-md">Configurações</div>
@@ -43,7 +43,6 @@
 <script>
 export default {
   name: 'Menu',
-
   data () {
     return {
       showMenu: true

@@ -7,7 +7,7 @@
           </q-avatar>
           Monamour
         </q-toolbar-title>
-        <q-btn dense flat round icon="menu" @click="showMenu = !showMenu" />
+        <q-btn dense flat round icon="menu" @click="showMenu = !showMenu" class="q-mr-sm" />
       </q-toolbar>
       <q-tabs align="center">
         <q-route-tab to="/" label="Início" />
@@ -22,10 +22,17 @@
 <script>
 export default {
   name: 'Cabecalho',
-
+  // props: {
+  //   menu: {
+  //     type: Boolean,
+  //     default: {
+  //       menu: true
+  //     }
+  //   }
+  // },
   data () {
     return {
-      showMenu: false
+      showMenu: true
     }
   }
 }

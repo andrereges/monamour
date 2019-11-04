@@ -1,5 +1,5 @@
 <template>
-    <q-footer elevated class="bg-grey-8 text-white">
+    <q-footer  elevated class="bg-grey-8 text-white">
       <q-toolbar>
         &copy; 2014 - 2019 | Monamour Acompanhantes
         <q-item clickable tag="a" target="_blank" href="https://www.facebook.com">
