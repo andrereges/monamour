@@ -10,7 +10,6 @@ import Thumbnails from '../components/Thumbnails'
 import VideoSlide from '../components/VideoSlide'
 import Imagem from '../components/Imagem'
 import Rodape from '../components/Rodape'
-import Menu from '../components/Menu'
 
 Vue.use(VueRouter)
 Vue.component('cabecalho', Cabecalho)
@@ -21,7 +20,6 @@ Vue.component('thumbnails', Thumbnails)
 Vue.component('video-slide', VideoSlide)
 Vue.component('imagem', Imagem)
 Vue.component('rodape', Rodape)
-Vue.component('menu', Menu)
 
 /*
  * If not building with SSR mode, you can

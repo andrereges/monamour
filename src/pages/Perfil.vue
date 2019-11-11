@@ -5,6 +5,20 @@
       <div class="q-pa-md">
       <q-card class="my-card">
         <q-card-section>
+          <q-list>
+            <q-item>
+              <q-item-section avatar>
+                <q-avatar size="35px">
+                  <img src="~assets/icons/whatsapp.svg">
+                </q-avatar>
+              </q-item-section>
+              <q-item-section>
+                <q-item-label class="text-h5">(11) 98647-5621</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </q-card-section>
+        <q-card-section>
           <q-btn aling="left" flat round color="red" icon="favorite" />
           <q-btn aling="right" flat round color="primary" icon="share" />
         </q-card-section>
