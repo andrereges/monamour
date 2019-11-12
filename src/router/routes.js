@@ -8,7 +8,8 @@ const routes = [
       { path: '/anuncie', component: () => import('pages/Anuncie.vue') },
       { path: '/area-vip', component: () => import('pages/AreaVip.vue') },
       { path: '/fale-conosco', component: () => import('pages/FaleConosco.vue') },
-      { path: '/perfil', component: () => import('pages/Perfil.vue') }
+      { path: '/perfil', component: () => import('pages/Perfil.vue') },
+      { path: '/login', component: () => import('pages/Login.vue') }
     ]
   }
 ]

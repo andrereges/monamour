@@ -1,7 +1,6 @@
 <template>
     <div class="q-pa-md doc-container">
         <div class="row">
-            
         </div>
     </div>
 </template>

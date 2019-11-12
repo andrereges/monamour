@@ -1,7 +1,7 @@
 <template>
 <q-layout view="lHr Lpr lfr">
     <q-page-container>
-      <h1>Anuncie</h1>
+      <div class="text-h4" align="center">Anuncie</div>
     </q-page-container>
   </q-layout>
 </template>

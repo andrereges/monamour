@@ -3,7 +3,7 @@
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
+            <img src="~assets/favicon.jpg">
           </q-avatar>
           Monamour
         </q-toolbar-title>
@@ -12,14 +12,14 @@
         <q-menu>
             <div class="row no-wrap q-pa-md">
               <div class="column">
-                  <div class="text-h6 q-mb-md">Configurações</div>
+                  <div class="text-h6 q-mb-md">Perfil</div>
                   <q-list>
-                      <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
+                      <q-item clickable tag="a" to="/area-vip">
                       <q-item-section avatar>
-                          <q-icon name="school" />
+                          <q-icon name="font_download" />
                       </q-item-section>
                       <q-item-section>
-                          <q-item-label>Dados Pessoais</q-item-label>
+                          <q-item-label>Alterar</q-item-label>
                       </q-item-section>
                       </q-item>
                   </q-list>
@@ -32,11 +32,12 @@
                   <img src="~assets/foto_perfil/andre_2.jpg">
                   </q-avatar>
 
-                  <div class="text-subtitle1 q-mt-md q-mb-xs">John Doe</div>
+                  <div class="text-subtitle1 q-mt-md q-mb-xs">Andre</div>
 
                   <q-btn
                   color="primary"
-                  label="Logout"
+                  label="Login"
+                  to="/login"
                   push
                   size="sm"
                   v-close-popup
