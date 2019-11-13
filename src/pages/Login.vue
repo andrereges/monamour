@@ -40,7 +40,10 @@
 export default {
   name: 'PageLogin',
   data () {
-    return {}
+    return {
+      usuario: '',
+      senha: ''
+    }
   }
 }
 </script>
