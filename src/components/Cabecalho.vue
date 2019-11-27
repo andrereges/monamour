@@ -19,7 +19,7 @@
                           <q-icon name="font_download" />
                       </q-item-section>
                       <q-item-section>
-                          <q-item-label>Alterar</q-item-label>
+                          <q-item-label>Área Vip</q-item-label>
                       </q-item-section>
                       </q-item>
                   </q-list>
@@ -36,7 +36,7 @@
 
                   <q-btn
                   color="primary"
-                  label="Login"
+                  label="Logout"
                   to="/login"
                   push
                   size="sm"
@@ -50,8 +50,8 @@
       <q-tabs align="center">
         <q-route-tab to="/" label="Início" />
         <q-route-tab to="/anuncie" label="Anuncie" />
-        <q-route-tab to="/area-vip" label="Área Vip" />
-        <q-route-tab to="/fale-conosco" label="Fale Conosco" />
+        <q-route-tab to="/parceiros" label="Parceiros" />
+        <q-route-tab to="/suporte" label="Suporte" />
       </q-tabs>
     </q-header>
 </template>

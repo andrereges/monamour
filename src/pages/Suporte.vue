@@ -1,13 +1,12 @@
 <template>
-  <div class="q-pa-md">
-    <div class="q-gutter-y-md column">
-      <h5 align="center">Fale Conosco</h5>
-
-    <q-form
-      @submit="onSubmit"
-      @reset="onReset"
-      class="q-gutter-md"
-    >
+  <q-layout view="lHr Lpr lfr">
+    <q-page-container align="center">
+      <h4>Suporte</h4>
+      <q-form
+        @submit="onSubmit"
+        @reset="onReset"
+        class="q-gutter-md"
+      >
       <q-select
           filled
           v-model="model"
@@ -17,30 +16,22 @@
           map-options
         />
       <q-editor v-model="editor" min-height="5rem" />
-        <q-card flat bordered>
-          <q-card-section>
-            <pre style="white-space: pre-line">{{ editor }}</pre>
-          </q-card-section>
-        </q-card>
-        <q-card flat bordered>
-        <q-card-section v-html="editor" />
-    </q-card>
-      <div>
-        <q-btn label="Submit" type="submit" color="primary"/>
-        <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
+      <div align="right">
+        <q-btn label="Enviar" type="submit" color="primary" align="right"/>
+        <q-btn label="Limpar" type="reset" color="primary" flat class="q-ml-sm" align="right"/>
       </div>
     </q-form>
-    </div>
-  </div>
+    </q-page-container>
+  </q-layout>
 </template>
 
 <script>
 export default {
-  name: 'PageFaleConosco',
+  name: 'PageSuporte',
   data () {
     return {
       model: 'elogio',
-      editor: 'What you see is <b>what</b> you get.',
+      editor: '',
       options: [
         {
           label: 'Elogio',

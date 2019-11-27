@@ -12,10 +12,10 @@
         />
       </q-carousel-slide>
 
-      <q-carousel-slide name="Rihanna">
+      <q-carousel-slide name="mc">
         <q-video
           class="absolute-full"
-          src="https://www.youtube.com/embed/kOkQ4T5WO9E"
+          src="https://www.youtube.com/embed/MXQ8ehy8wRg"
         />
       </q-carousel-slide>
 
@@ -33,7 +33,7 @@
         v-model="slide"
         :options="[
           { label: 'Soft Jazz', value: 'soft-jazz' },
-          { label: 'Rihanna', value: 'Rihanna' },
+          { label: 'MC Nando e MC Luanzinho', value: 'mc' },
           { label: 'Chill Mix', value: 'chill-mix' }
         ]"
       />
@@ -45,7 +45,7 @@
 export default {
   data () {
     return {
-      slide: 'Rihanna'
+      slide: 'mc'
     }
   }
 }
