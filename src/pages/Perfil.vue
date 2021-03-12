@@ -1,47 +1,43 @@
 <template>
-<q-layout view="lHr Lpr lfr">
-    <q-page-container>
-      <thumbnails />
-      <div class="q-pa-md">
-      <q-card class="my-card">
-        <q-card-section>
-          <q-list>
-            <q-item>
-              <q-item-section avatar>
-                <q-avatar size="35px">
-                  <img src="~assets/icons/whatsapp.svg">
-                </q-avatar>
-              </q-item-section>
-              <q-item-section>
-                <q-item-label class="text-h5">(11) 98647-5621</q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-list>
-        </q-card-section>
-        <q-card-section>
-          <q-btn aling="left" flat round color="red" icon="favorite" />
-          <q-btn aling="right" flat round color="primary" icon="share" />
-        </q-card-section>
-        <q-card-section>
-          <div class="text-h5" align="center">Apresentação</div>
-          {{ descricao }}
-        </q-card-section>
-          <q-list>
-          <div class="text-h5" align="center">Especialidades</div>
+  <q-layout view="lHr Lpr lfr">
+    <thumbnails />
+    <div class="q-pa-md">
+    <q-card class="my-card">
+      <q-card-section>
+        <q-list>
           <q-item>
             <q-item-section avatar>
-              <q-icon color="red" name="local_gas_station" />
+              <q-avatar size="35px">
+                <img src="~assets/icons/whatsapp.svg">
+              </q-avatar>
             </q-item-section>
             <q-item-section>
-              <q-item-label>Gas Station</q-item-label>
-              <q-item-label caption>Fill your gas tank.</q-item-label>
+              <q-item-label class="text-h5">(11) 98647-5621</q-item-label>
             </q-item-section>
           </q-item>
         </q-list>
-      </q-card>
-      </div>
-      <video-slide />
-    </q-page-container>
+        <q-btn aling="left" flat round color="red" icon="favorite" />
+        <q-btn aling="right" flat round color="primary" icon="share" />
+      </q-card-section>
+      <q-card-section>
+        <h5 align="center">Apresentação</h5>
+        {{ descricao }}
+      </q-card-section>
+        <q-list>
+          <h5 align="center">Especialidades</h5>
+        <q-item>
+          <q-item-section avatar>
+            <q-icon color="red" name="local_gas_station" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Gas Station</q-item-label>
+            <q-item-label caption>Fill your gas tank.</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
+    </q-card>
+    </div>
+    <video-slide />
   </q-layout>
 </template>
 

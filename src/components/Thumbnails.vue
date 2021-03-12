@@ -6,6 +6,7 @@
       v-model="slide"
       thumbnails
       infinite
+      class="q-pa-sm shadow-4 col-md-4 col-lg-4 col-sm-6 col-xs-12 scale"
     >
       <q-carousel-slide :name="1" img-src="https://cdn.quasar.dev/img/mountains.jpg" />
       <q-carousel-slide :name="2" img-src="https://cdn.quasar.dev/img/parallax1.jpg" />

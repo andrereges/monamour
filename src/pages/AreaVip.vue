@@ -1,8 +1,6 @@
 <template>
-<q-layout view="lHr Lpr lfr">
-    <q-page-container>
-      <h1>Área Vip</h1>
-    </q-page-container>
+  <q-layout view="lHr Lpr lfr">
+    <h1>Área Vip</h1>
   </q-layout>
 </template>
 

@@ -1,10 +1,10 @@
 <template>
     <q-footer  elevated class="bg-grey-8 text-white">
       <q-toolbar>
-        &copy; 2014 - 2019 | Monamour Acompanhantes
+        &copy; 2019 | Monamour Acompanhantes
         <q-item clickable tag="a" target="_blank" href="https://www.facebook.com">
           <q-item-section avatar>
-            <q-icon name="face" />
+            <img src="~assets/icons/facebook.png">
           </q-item-section>
         </q-item>
       </q-toolbar>
